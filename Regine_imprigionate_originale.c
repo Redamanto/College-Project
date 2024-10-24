@@ -3,7 +3,7 @@
 #include <Windows.h>
 #include <time.h>
 
-// Definisco i vari "tasti" che il giocatore potr‡ premere
+// Definisco i vari "tasti" che il giocatore potr√† premere
 #define INVIO '\r'
 #define USCITA '\e'
 #define SCELTA2 'r'
@@ -50,155 +50,155 @@ void regole(){												// Funzione che visualizza le regole
 	for(i=0; i<20000000;i++)
 	{
 	}
-	printf("\t\t\t\t\t\t\t±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n");
+	printf("\t\t\t\t\t\t\t¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±\n");
 		for(i=0; i<20000000;i++)
 		{
 		}
-	printf("\t\t\t\t\t\t\t±±±                                                         ±±±\n");
+	printf("\t\t\t\t\t\t\t¬±¬±¬±                                                         ¬±¬±¬±\n");
 	    for(i=0; i<20000000;i++)
 		{
 		}
-		printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+		printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
 		for(i=0; i<20000000;i++)
 		{
 	    }
-    printf("\t\t\t\t\t\t\t±±                  ");
+    printf("\t\t\t\t\t\t\t¬±¬±                  ");
 	selector(FOREGROUND_RED|FOREGROUND_INTENSITY);                         
     printf("!!!! SCOPO DEL GIOCO !!!!");
     selector(FOREGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-    printf("                ±±\n");
+    printf("                ¬±¬±\n");
     	
 		for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±  Spostare tutte le carte nelle pile di base e di riserva. ±±\n");
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±  Spostare tutte le carte nelle pile di base e di riserva. ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 	}
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE);
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}                         
-    printf("\t\t\t\t\t\t\t±±                      ");
+    printf("\t\t\t\t\t\t\t¬±¬±                      ");
 	selector(FOREGROUND_RED|FOREGROUND_INTENSITY);                                        
     printf("!!!! REGOLE !!!!");
     selector(FOREGROUND_GREEN|FOREGROUND_BLUE);
-    printf("                     ±±\n");
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("                     ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<10000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ****** Per le 8 pile di base (in alto e in basso) ******  ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬± ****** Per le 8 pile di base (in alto e in basso) ******  ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
-    printf("\t\t\t\t\t\t\t±± ");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬± ");
     selector(FOREGROUND_RED|FOREGROUND_INTENSITY);
 	printf("->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE);    
-	printf(" Le pile superiori vengono costruite per seme in ordine ±±\n");
+	printf(" Le pile superiori vengono costruite per seme in ordine ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±    discendente dal cinque all'asso. Sull'asso si mette il ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±    discendente dal cinque all'asso. Sull'asso si mette il ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±    re.                                                    ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±    re.                                                    ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ");
+    printf("\t\t\t\t\t\t\t¬±¬± ");
     selector(FOREGROUND_RED|FOREGROUND_INTENSITY);
 	printf("->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE);
-	printf(" Le pile inferiori vengono costruite per seme in ordine ±±\n");
+	printf(" Le pile inferiori vengono costruite per seme in ordine ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±    ascendente dal sei al fante.                           ±±\n");
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±    ascendente dal sei al fante.                           ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ********* Per le 4 pile di riserva (al centro) *********  ±±\n");
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬± ********* Per le 4 pile di riserva (al centro) *********  ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ");
+    printf("\t\t\t\t\t\t\t¬±¬± ");
     selector(FOREGROUND_RED|FOREGROUND_INTENSITY);
 	printf("->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE);
-	printf(" Qui si mettono le regine.                              ±±\n");
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+	printf(" Qui si mettono le regine.                              ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±  *********** Mazzo da cui si pescano le carte *********** ±±\n");
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n"); 
+    printf("\t\t\t\t\t\t\t¬±¬±  *********** Mazzo da cui si pescano le carte *********** ¬±¬±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n"); 
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ");
+    printf("\t\t\t\t\t\t\t¬±¬± ");
     selector(FOREGROUND_RED|FOREGROUND_INTENSITY);
 	printf("->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE);
-	printf(" Le carte dal mazzo vengono prese una alla volta.       ±±\n");
+	printf(" Le carte dal mazzo vengono prese una alla volta.       ¬±¬±\n");
     for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ");
+    printf("\t\t\t\t\t\t\t¬±¬± ");
     selector(FOREGROUND_RED|FOREGROUND_INTENSITY);
 	printf("->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE);
-	printf(" Sono ammesse 2 ridistribuzioni, dopodiche' game over.  ±±\n");
+	printf(" Sono ammesse 2 ridistribuzioni, dopodiche' game over.  ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     for(i=0; i<20000000;i++)
 		{
 		}
     selector(FOREGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-    printf("\t\t\t\t\t\t\t±± ********************* Carte pescate ********************* ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬± ********************* Carte pescate ********************* ¬±¬±\n");
     	for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±± ");
+    printf("\t\t\t\t\t\t\t¬±¬± ");
     selector(FOREGROUND_RED|FOREGROUND_INTENSITY);
 	printf("->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf(" E' possibile spostare solo la carta superiore.         ±±\n");
+	printf(" E' possibile spostare solo la carta superiore.         ¬±¬±\n");
     selector(FOREGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-    printf("\t\t\t\t\t\t\t±±                                                           ±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±                                                           ¬±¬±\n");
     for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±±                                                         ±±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±¬±                                                         ¬±¬±¬±\n");
     for(i=0; i<20000000;i++)
 		{
 		}
-    printf("\t\t\t\t\t\t\t±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±\n");
+    printf("\t\t\t\t\t\t\t¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±¬±\n");
 }
-void menu(Card deck[]){ 									// Visualizza l'intro con il men˘. » una semplice stampa
+void menu(Card deck[]){ 									// Visualizza l'intro con il men√π. √à una semplice stampa
 
 	int i;
     system("CLS");
 	printf("\n");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE);
-printf("\t\t\t     ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹\n");
+printf("\t\t\t     √ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú\n");
 selector(FOREGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_INTENSITY);                                                                                                                                                                                      
 
 
@@ -215,7 +215,7 @@ printf("\t\t\t     ######  ######  ####  # #    # ######     # #    # #####  ###
  Beep (392,100);Sleep(700);
  printf("\t\t\t     #     # ######  ####  # #    # ######     # #    # #      #    # #  ####  #  ####  #    # #    #  #   ###### \n");
  selector(FOREGROUND_RED|FOREGROUND_BLUE);
-printf("\t\t\t     ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹\n");    
+printf("\t\t\t     √ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú\n");    
  Beep (196,100);                                                                                                                                                                                                                                                                                                                      
 	printf("\n\n");
 	for(i=0; i<200000000;i++)
@@ -230,44 +230,44 @@ printf("\t\t\t     ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
 	selector(FOREGROUND_RED|FOREGROUND_BLUE);
 	printf("  \6\n\n");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("\t\t\t\t\t\t\t\t\t…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª\n");
-	printf("\t\t\t\t\t\t\t\t\t∫");
+	printf("\t\t\t\t\t\t\t\t\t√â√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬ª\n");
+	printf("\t\t\t\t\t\t\t\t\t¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED);
 	printf("\x1b[1m     MENU PRINCIPALE");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("     ∫\n");
-    printf("\t\t\t\t\t\t\t\t\t»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº\n");
+	printf("     ¬∫\n");
+    printf("\t\t\t\t\t\t\t\t\t√à√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬º\n");
     selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("\t\t\t\t\t\t\t\t\t…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª\n");
-	printf("\t\t\t\t\t\t\t\t\t∫                         ∫\n");
-	printf("\t\t\t\t\t\t\t\t\t∫");
+	printf("\t\t\t\t\t\t\t\t\t√â√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬ª\n");
+	printf("\t\t\t\t\t\t\t\t\t¬∫                         ¬∫\n");
+	printf("\t\t\t\t\t\t\t\t\t¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED);
 	printf("\x1b[1m    - NUOVA PARTITA");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("      ∫");
+	printf("      ¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED|FOREGROUND_BLUE);
 	printf("\t\x1b[1m(INVIO)\n");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("\t\t\t\t\t\t\t\t\t∫                         ∫\n");
-	printf("\t\t\t\t\t\t\t\t\t∫");
+	printf("\t\t\t\t\t\t\t\t\t¬∫                         ¬∫\n");
+	printf("\t\t\t\t\t\t\t\t\t¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED);
 	printf("\x1b[1m    - REGOLE");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("             ∫");
+	printf("             ¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED|FOREGROUND_BLUE);
 	printf("\t\x1b[1m(R)\n");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-    printf("\t\t\t\t\t\t\t\t\t∫                         ∫\n");
-	printf("\t\t\t\t\t\t\t\t\t∫");
+    printf("\t\t\t\t\t\t\t\t\t¬∫                         ¬∫\n");
+	printf("\t\t\t\t\t\t\t\t\t¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED);
 	printf("\x1b[1m    - ESCI  ");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("             ∫");
+	printf("             ¬∫");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED|FOREGROUND_BLUE);
 	printf("\t\x1b[1m(ESC)\n");
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_INTENSITY);
-	printf("\t\t\t\t\t\t\t\t\t∫                         ∫\n");
-	printf("\t\t\t\t\t\t\t\t\t»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº\n\n\n\n");
+	printf("\t\t\t\t\t\t\t\t\t¬∫                         ¬∫\n");
+	printf("\t\t\t\t\t\t\t\t\t√à√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬º\n\n\n\n");
 	selector(FOREGROUND_GREEN|FOREGROUND_RED|FOREGROUND_BLUE);
 	selector(BACKGROUND_GREEN);
 	switch(getch())
@@ -304,43 +304,43 @@ void visualizza_campo(){
 	printf("\t       [ 1 ]\t       [ 2 ]\t       [ 3 ]\t       [ 4 ]\n");
 	selector(FOREGROUND_RED|BACKGROUND_GREEN);
 	gotoxy(54,21);
-	printf("   ⁄ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒø");
+	printf("   √ö√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ¬ø");
 	gotoxy(54,22);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,23);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,24);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,25);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,26);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,27);
-	printf("   √ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ¥");
+	printf("   √É√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ¬¥");
 	gotoxy(54,28);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,29);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,30);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,31);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,32);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,33);
-	printf("   √ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ¥");
+	printf("   √É√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ¬¥");
 	gotoxy(54,34);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,35);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,36);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,37);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,38);
-	printf("   ≥                                                             ≥");
+	printf("   ¬≥                                                             ¬≥");
 	gotoxy(54,39);
-	printf("   ¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ");
+	printf("   √Ä√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√Ñ√ô");
 	gotoxy(50,20);
 	for(i=0;i<3;i++){
 		selector(BACKGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_RED|FOREGROUND_GREEN);
@@ -380,10 +380,10 @@ void shuffle(Card deck[]){									// Uso lo pseudo shuffle di carte per l'array
     deck[swapper] = temp;
   }
 }
-void stampa_scelte(){										//Stampa i comandi nel men˙ in-game
+void stampa_scelte(){										//Stampa i comandi nel men√∫ in-game
 selector(BACKGROUND_INTENSITY);
-	printf("                                                                 €                                                                                                                                ");
-    printf("                                       €                                                                                                                                                                                                                                                                              ");
+	printf("                                                                 √õ                                                                                                                                ");
+    printf("                                       √õ                                                                                                                                                                                                                                                                              ");
 	selector(FOREGROUND_RED|FOREGROUND_INTENSITY|BACKGROUND_INTENSITY);
 	printf("\n    --->");
 	selector(FOREGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_RED|BACKGROUND_INTENSITY);
@@ -413,85 +413,85 @@ selector(BACKGROUND_INTENSITY);
 	printf("                                                                                                                                                ");                    
 	printf("\n                                                                                                                                                                        ");
 	selector(BACKGROUND_GREEN);
-	printf("ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ\n\n\t");
+	printf("√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü√ü\n\n\t");
 	gotoxy(75,2);	  
 	selector(BACKGROUND_RED|BACKGROUND_BLUE|BACKGROUND_GREEN|FOREGROUND_RED);
     printf("\3 \4 \5 \6 CARTA PESCATA \3 \4 \5 \6");
     selector(BACKGROUND_INTENSITY);
     gotoxy(65,7);
-    printf("€");
+    printf("√õ");
     gotoxy(65,10);
-    printf("€");
+    printf("√õ");
     gotoxy(65,11);
-    printf("€");
+    printf("√õ");
     gotoxy(65,8);
-    printf("€");
+    printf("√õ");
     gotoxy(65,9);
-    printf("€");
+    printf("√õ");
     gotoxy(65,6);
-    printf("€                                                                                                        ");
+    printf("√õ                                                                                                        ");
     gotoxy(65,4);
-    printf("€");
+    printf("√õ");
     gotoxy(65,3);
-    printf("€                                 ");
+    printf("√õ                                 ");
     gotoxy(65,2);
-    printf("€");
+    printf("√õ");
     gotoxy(65,5);
-    printf("€");
+    printf("√õ");
     gotoxy(65,8);
-    printf("€");
+    printf("√õ");
     gotoxy(65,9);
-    printf("€");
+    printf("√õ");
     gotoxy(113,7);
-    printf("€");
+    printf("√õ");
     gotoxy(113,6);
-    printf("€");
+    printf("√õ");
     gotoxy(113,5);
-    printf("€");
+    printf("√õ");
     gotoxy(113,8);
-    printf("€");
+    printf("√õ");
     gotoxy(113,5);
-    printf("€");
+    printf("√õ");
     gotoxy(113,4);
-    printf("€");
+    printf("√õ");
     gotoxy(113,3);
-    printf("€");
+    printf("√õ");
     gotoxy(113,2);
-    printf("€");
+    printf("√õ");
     gotoxy(113,1);
-    printf("€");
+    printf("√õ");
     gotoxy(113,9);
-    printf("€");
+    printf("√õ");
     gotoxy(113,0);
-    printf("€");
+    printf("√õ");
     gotoxy(113,11);
-    printf("€");
+    printf("√õ");
     gotoxy(113,10);
-    printf("€");
+    printf("√õ");
     gotoxy(167,0);
-    printf("€");
+    printf("√õ");
     gotoxy(167,1);
-    printf("€");
+    printf("√õ");
     gotoxy(167,2);
-    printf("€");
+    printf("√õ");
     gotoxy(167,3);
-    printf("€");
+    printf("√õ");
     gotoxy(167,4);
-    printf("€");
+    printf("√õ");
     gotoxy(167,5);
-    printf("€");
+    printf("√õ");
     gotoxy(167,6);
-    printf("€");
+    printf("√õ");
     gotoxy(167,7);
-    printf("€");
+    printf("√õ");
     gotoxy(167,8);
-    printf("€");
+    printf("√õ");
     gotoxy(167,9);
-    printf("€");
+    printf("√õ");
     gotoxy(167,10);
-    printf("€");
+    printf("√õ");
     gotoxy(167,11);
-    printf("€");
+    printf("√õ");
 }
 void clear(){												//Funzione che rimuove le carte dal campo
 	int i,j;
@@ -511,30 +511,30 @@ void gioco(Card deck[]){ 									//Funzione con la quale si pesca una carta dal
 		N_CARTE=52-c_rimosse;
 		for(i=51;i>=0;--i){
         	switch(getch()){
-				case(USCITA): //questo case permette all'utente di uscire dalla partita e ritornare al men˘ principale
+				case(USCITA): //questo case permette all'utente di uscire dalla partita e ritornare al men√π principale
 					selector(BACKGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_RED);
 					gotoxy(50,49);
-		            printf("…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª");
+		            printf("√â√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬ª");
 		            gotoxy(50,50);
-		            printf("∫                                                                        ∫");
+		            printf("¬∫                                                                        ¬∫");
 		            gotoxy(50,51);
-		            printf("∫                                                                        ∫");
+		            printf("¬∫                                                                        ¬∫");
 		            gotoxy(50,52);
-		            printf("∫                                                                        ∫");
+		            printf("¬∫                                                                        ¬∫");
 		            gotoxy(50,53);  
-		            printf("∫          ");
+		            printf("¬∫          ");
 		            selector(BACKGROUND_GREEN|FOREGROUND_RED|FOREGROUND_BLUE|FOREGROUND_GREEN|FOREGROUND_INTENSITY);
 		            printf("Premi di nuovo ESC per confermare e tornare al menu'");
 		            selector(BACKGROUND_GREEN|FOREGROUND_BLUE|FOREGROUND_RED);
-		            printf("          ∫ ");
+		            printf("          ¬∫ ");
 		            gotoxy(50,54);
-		            printf("∫                                                                        ∫");
+		            printf("¬∫                                                                        ¬∫");
 		            gotoxy(50,55);
-  	                printf("∫                                                                        ∫");
+  	                printf("¬∫                                                                        ¬∫");
 		            gotoxy(50,56);
-		            printf("∫                                                                        ∫");
+		            printf("¬∫                                                                        ¬∫");
 		            gotoxy(50,57);
-                    printf("»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº");
+                    printf("√à√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬º");
         			if (getch()==USCITA){  //L'if serve per conferare ulteriormente l'usita da parte dell'utente
         				selector(BACKGROUND_GREEN);
                         gotoxy(60,58);
@@ -553,7 +553,7 @@ void gioco(Card deck[]){ 									//Funzione con la quale si pesca una carta dal
 						break;
 					}
 
-				case(INVIO):	//permette all'utente di premere invio per pescare una carta per volta dal mazzo, a quest'ultima ritorner‡ il valore dell'indice i aggiornato
+				case(INVIO):	//permette all'utente di premere invio per pescare una carta per volta dal mazzo, a quest'ultima ritorner√† il valore dell'indice i aggiornato
 					selector(BACKGROUND_GREEN);			
 					i=pesca(deck, i);		
 					selector(BACKGROUND_GREEN);			
@@ -569,7 +569,7 @@ void gioco(Card deck[]){ 									//Funzione con la quale si pesca una carta dal
 					printf("%i",i);		
 					selector(BACKGROUND_GREEN);	
 					break;
-				case(SPAZIO):  //permette di spostare la carta chiamando la funzione "check"che effettuer‡ tutti i controlli  necessari per verificare la validit‡ della mossa
+				case(SPAZIO):  //permette di spostare la carta chiamando la funzione "check"che effettuer√† tutti i controlli  necessari per verificare la validit√† della mossa
 					tmp=check(deck,++i);
 					if(tmp==1){
 						c_rimosse++;
@@ -629,30 +629,30 @@ int pesca(Card deck[], int i){
 	    }
 	    return i;
 }
-int check(Card deck[], int i){								//Funzione che controlla la validit· delle mosse
+int check(Card deck[], int i){								//Funzione che controlla la validit√° delle mosse
  
 	int x,y;
 	if(i>51)
 		i=0;
 		selector(BACKGROUND_GREEN);
 		gotoxy(65,49);
-		printf("…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª");
+		printf("√â√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬ª");
 		gotoxy(65,50);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,51);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,52);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,53);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,54);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,55);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,56);
-		printf("∫                                ∫");
+		printf("¬∫                                ¬∫");
 		gotoxy(65,57);
-        printf("»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº");
+        printf("√à√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬º");
 		selector(BACKGROUND_INTENSITY);
 		gotoxy(67,50);
 		selector(BACKGROUND_RED|BACKGROUND_BLUE|BACKGROUND_GREEN);
@@ -792,7 +792,7 @@ void vittoria(){
 	Beep (262,100);Sleep(125);
  	Beep (330,100);Sleep(125);	
  	gotoxy(47,20);
-printf(" ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹\n\n");
+printf(" √ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú\n\n");
  	Beep (392,100);Sleep(125);
 	Beep (523,100);Sleep(125);
 	Beep (660,100);Sleep(125);
@@ -818,7 +818,7 @@ printf("\t\t\t\t\t\t   ###    ####    ##       ##     #######  ##     ## #### ##
 	Beep (294,100);Sleep(125);
 	Beep (349,100);Sleep(125);
 	selector(FOREGROUND_RED|FOREGROUND_BLUE|BACKGROUND_RED|BACKGROUND_BLUE|BACKGROUND_GREEN|BACKGROUND_INTENSITY);
-printf("\n\t\t\t\t\t\t‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹\n");
+printf("\n\t\t\t\t\t\t√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú√ú\n");
 	Beep (466,100);Sleep(125);
 	Beep (587,100);Sleep(125);
 	Beep (698,100);Sleep(125);
