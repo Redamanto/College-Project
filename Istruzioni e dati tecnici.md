@@ -4,8 +4,12 @@ ANNO ACCADEMICO 2019/2020
 “Descrizione del gioco”
 Lo scopo di questo solitario consiste nello spostare tutte le carte del mazzo in 8 pile di base (cioè le pile disposte in alto e in basso alle regine imprigionate) e 4 pile di riserva (sono disposte al centro delle pile di base).    
 “Regole”
-- Le pile superiori vengono costruite per seme in ordine decrescente dal 5 all’asso (sull’asso si mette il re).                                                                                                           - Le pile inferiori vengono costruite sempre per seme ma in ordine crescente dal 6 al fante.                                                                                                                            – Per le 4 pile di riserva (al centro) si inseriscono solo le regine.                                                      
- – Le carte dal mazzo vengono essere prese una alla volta.                                                                                                            – Sono ammesse solo 2 ridistribuzioni.                                                                               –Delle carte pescate è possibile  spostare solo la carta superiore.
+- Le pile superiori vengono costruite per seme in ordine decrescente dal 5 all’asso (sull’asso si mette il re).
+- Le pile inferiori vengono costruite sempre per seme ma in ordine crescente dal 6 al fante.  
+– Per le 4 pile di riserva (al centro) si inseriscono solo le regine.                                                      
+– Le carte dal mazzo vengono essere prese una alla volta.                                                                                                         
+– Sono ammesse solo 2 ridistribuzioni.
+–Delle carte pescate è possibile  spostare solo la carta superiore.
 “Descrizione generale del programma”
 Nel codice sono state inserite 4 librerie:
 - #include <stdio.h>   è l'header file della libreria standard del C che contiene definizioni di macro, costanti e dichiarazioni di funzioni e tipi usati per le varie operazioni di input/output.
@@ -72,8 +76,6 @@ Nessun valore di ritorno.
 
 
 
-
-Diagramma di flusso della funzione visualizza campo():
 
 -void regole():
 Descrizione della funzione
@@ -181,7 +183,7 @@ Verrà ritornato il valore 1 se la carta viene effettivamente spostata (inserita
 
 
 
-Diagramma di flusso della funzione check(Card deck[ ]):
+
 
 -void pesca():
 Descrizione della funzione
@@ -199,9 +201,6 @@ La funzione ritornerà il valore aggiornato dell’indice alla funzione “gioco
 
 
 
-
-
-Diagramma di flusso della funzione pesca():
 
 
 
